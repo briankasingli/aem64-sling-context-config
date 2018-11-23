@@ -19,7 +19,7 @@
                     sling:resourceType="sling-context-test/components/content/context-test"/>
             </responsivegrid>
         </root>
-        <image/>
     </jcr:content>
-    <fr/>
+    <site-config/>
+    <services/>
 </jcr:root>

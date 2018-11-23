@@ -119,6 +119,5 @@
             <artifactId>uber-jar</artifactId>
             <classifier>apis</classifier>
         </dependency>
-
     </dependencies>
 </project>

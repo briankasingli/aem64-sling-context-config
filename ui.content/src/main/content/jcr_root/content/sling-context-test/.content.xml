@@ -12,6 +12,7 @@
         sling:configRef="/conf/sling-context-test/content"
         redirectTarget="/content/sling-context-test/en">
     </jcr:content>
+    <site-config/>
     <en/>
     <fr/>
 </jcr:root>
