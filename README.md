@@ -9,6 +9,11 @@ NOTE: The setup by itself forces users to make changes to nodes in the JCR. With
 Sling Context-Aware configuration blog series written by Jörg Hoh explains the strategy of when this capability should be used, also provides an tutorial on the setup - 
 https://cqdump.wordpress.com/sling-context-aware-configuration/ 
 
+#### Learn about Apache Sling Context-Aware Configuration
+- https://cqdump.wordpress.com/sling-context-aware-configuration/
+- https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html
+- https://www.youtube.com/watch?v=1kQ-fkFkiz0
+
 #### Project Setup
 - AEM 6.4 Project (Maven AEM Archetype 15) (https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)
 
