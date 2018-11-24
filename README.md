@@ -1,16 +1,41 @@
-# Sample AEM project template
+# AEM 6.4 : Demo with Apache Sling Context-Aware Configuration and WCM.IO Configuration Editor
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is an example of how you can setup Apache Sling Context-Aware Configuration in AEM, and also Context-Aware Configuration UI with wcm.io. 
+
+The objective for this demo is to explore the capabilities of Apache Sling Context-Aware Configuration enabled in an earlier AEM version (6.2). The setup by itself forces users to make changes to some nodes in the JCR. With wcm.io, an author can make changes to a configuration directly from the site's console. 
+
+Sling Context-Aware configuration blog series written by Jörg Hoh explains the strategy of when this capability should be used, also provides an tutorial on the setup - 
+https://cqdump.wordpress.com/sling-context-aware-configuration/ 
+
+#### Project Setup
+- AEM 6.4 Project (Maven AEM Archetype 15) (https://github.com/Adobe-Marketing-Cloud/aem-project-archetype)
+
+#### Pre Requirements
+- JAVA JDK 1.8
+- Maven 3+
+  
+#### How To Run
+1. Clone the project.
+2. cd to the correct directory.
+3. on terminal, run 'mvn clean install -PautoInstallPackage -Padobe-public'
+
+#### Node Technologies Used
+- Sling Context-Aware Config by Apache - https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html
+- Sling Context-Aware Config (Enabled UI editing capabilities) by wcm.io - http://wcm.io/caconfig 
+
+#### My Discoveries
+- Context-Aware Configs can only be created in an OSGI bundle.
+- Context-Aware Config's inheritance can only be resolved using JAVA code, so I used a sling model.  
+- Context-Aware Configs in /conf must the property "sling:configPropertyInherit == true" to enabled config inheritance.
+- Context-Aware Configs in /conf are pages, so when publishing updated configs using wcm.io's ui, the configs are also being published. 
 
 ## Modules
 
-The main parts of the template are:
+The main parts of the project are:
 
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 * ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, templates, runmode specific configs as well as Hobbes-tests
 * ui.content: contains sample content using the components from the ui.apps
-* ui.tests: Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
-* ui.launcher: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution
 
 ## How to build
 
