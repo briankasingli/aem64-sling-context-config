@@ -3,6 +3,6 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        contactEmailAddress="contact@en.com"
-        websiteColor="Green Color"/>
+        sling:configPropertyInherit="{Boolean}true"
+        contactEmailAddress="contact@en.com"/>
 </jcr:root>

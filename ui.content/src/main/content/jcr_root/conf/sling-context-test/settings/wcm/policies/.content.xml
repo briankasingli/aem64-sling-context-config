@@ -26,6 +26,7 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                         <jcr:content
+                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
@@ -42,7 +43,9 @@
                         jcr:title="sling-context-test Form"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/apps/sling-context-test/components/form/button,/apps/sling-context-test/components/form/hidden,/apps/sling-context-test/components/form/options,/apps/sling-context-test/components/form/text]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
             </form>

@@ -13,5 +13,5 @@ public @interface SiteConfiguration {
     String contactEmailAddress();
 
     @Property(label="Store Number ID", description="Store number will be displayed bottom right of the page")
-    int storeID() default 0;
+    int storeID();
 }
