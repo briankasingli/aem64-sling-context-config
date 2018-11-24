@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/sling-context-test" mode="replace"/>
-    <filter root="/content/sling-context-test" mode="replace"/>
-    <filter root="/content/dam/sling-context-test" mode="merge"/>
+    <filter root="/conf/sling-context-test"/>
+    <filter root="/content/sling-context-test"/>
 </workspaceFilter>
