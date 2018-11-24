@@ -25,7 +25,7 @@ https://cqdump.wordpress.com/sling-context-aware-configuration/
 - Sling Context-Aware Config by Apache - https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html
 - Sling Context-Aware Config (Enabled UI editing capabilities) by wcm.io - http://wcm.io/caconfig 
 
-#### My Discoveries
+#### Highlights
 - Context-Aware Configs can only be created in an OSGI bundle.
 - Context-Aware Config's inheritance can only be resolved using JAVA code, so I used a sling model.  
 - Context-Aware Configs in /conf must the property "sling:configPropertyInherit == true" to enabled config inheritance.
