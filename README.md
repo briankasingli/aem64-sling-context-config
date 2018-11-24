@@ -21,7 +21,7 @@ https://cqdump.wordpress.com/sling-context-aware-configuration/
 2. cd to the correct directory.
 3. on terminal, run 'mvn clean install -PautoInstallPackage -Padobe-public'
 
-#### Node Technologies Used
+#### Technologies Used
 - Sling Context-Aware Config by Apache - https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html
 - Sling Context-Aware Config (Enabled UI editing capabilities) by wcm.io - http://wcm.io/caconfig 
 
