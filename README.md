@@ -1,8 +1,10 @@
-# AEM 6.4 : Demo with Apache Sling Context-Aware Configuration and WCM.IO Configuration Editor
+# AEM 6.4 : Project Setup with Apache Sling Context-Aware Configuration and WCM.IO Configuration Editor
 
-This is an example of how you can setup Apache Sling Context-Aware Configuration in AEM, and also Context-Aware Configuration UI with wcm.io. 
+This is an example setup with Apache Sling Context-Aware Configuration in AEM, and also Context-Aware Configuration UI with wcm.io. 
 
-The objective for this demo is to explore the capabilities of Apache Sling Context-Aware Configuration enabled in an earlier AEM version (6.2). The setup by itself forces users to make changes to some nodes in the JCR. With wcm.io, an author can make changes to a configuration directly from the site's console. 
+The objective of this project is to explore the capabilities of Apache Sling Context-Aware Configuration enabled in an earlier AEM version (6.2), and showcase project setup for this technology. 
+
+NOTE: The setup by itself forces users to make changes to nodes in the JCR. With wcm.io, an author can make changes to a configuration directly from the site's console. 
 
 Sling Context-Aware configuration blog series written by Jörg Hoh explains the strategy of when this capability should be used, also provides an tutorial on the setup - 
 https://cqdump.wordpress.com/sling-context-aware-configuration/ 
